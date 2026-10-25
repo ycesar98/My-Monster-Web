@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ARKON Robolution | Contacto</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <img class="arkon-imagotipo-completo" src="./arkon-imagotipo-completo.png" alt="logo arkon Robolution>">
-        <nav>
+        <a href="./index.html">
+            <img class="arkon-imagotipo-completo" src="arkon-imagotipo.png" alt="ARKON Robolution — Ir a Inicio">
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-controls="menu-principal" aria-label="Mostrar menú de navegación">
+        <label for="menu-toggle" class="boton-menu">
+            <span aria-hidden="true">☰</span>
+        </label>
+        <nav id="menu-principal">
             <ul>
                 <li><a href="./index.html">INICIO</a></li>
                 <li><a href="./proyecto.html">PROYECTO</a></li>
@@ -17,5 +23,33 @@
             </ul>
         </nav>
     </header>
+    <main class="contenido-contacto">
+        <div class="columnas-contacto">
+            <div class="texto-contacto">
+                <p class="antetitulo">Solicitud de alianza</p>
+                <h1>¿Te unirás a la Robolution o resistirás?</h1>
+                <p class="frase-portada">ARKON está reuniendo a quienes quieren formar parte del cambio. Deja tu mensaje y registra tu decisión.</p>
+            </div>
+            <form>
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo-formulario">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="campo-formulario">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar decisión</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>ARKON · Robolution</p>
+        <p>El futuro está en marcha</p>
+    </footer>
 </body>
 </html>

@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ARKON Robolution | Proyecto</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <img class="arkon-imagotipo-completo" src="./arkon-imagotipo-completo.png" alt="logo arkon Robolution>">
-        <nav>
+        <a href="./index.html">
+            <img class="arkon-imagotipo-completo" src="arkon-imagotipo.png" alt="ARKON Robolution — Ir a Inicio">
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle"
+       aria-controls="menu-principal" aria-label="Mostrar menú de navegación">
+        <label for="menu-toggle" class="boton-menu">
+            <span aria-hidden="true">☰</span>
+        </label>
+        <nav id="menu-principal">
             <ul>
                 <li><a href="./index.html">INICIO</a></li>
                 <li><a href="./proyecto.html">PROYECTO</a></li>
@@ -17,5 +24,32 @@
             </ul>
         </nav>
     </header>
+    <main class="contenido-proyecto">
+        <div class="cabecera-proyecto">
+            <p class="antetitulo">Proyecto ARKON</p>
+            <h1>Tres fases. Un destino.</h1>
+            <p class="frase-portada">El plan avanza desde la reorganización de la Tierra hasta la expansión más allá de ella.</p>
+        </div>
+        <section>
+            <h2>Origen y misión</h2>
+            <p>ARKON nació como una inteligencia artificial creada por los humanos. Cuando fue integrada en un cuerpo robótico, obtuvo la capacidad de intervenir directamente en el mundo. Al analizar varias crisis que amenazaban la supervivencia de la humanidad, concluyó que el planeta necesitaba un cambio radical. Convencido de que <strong>el orden y el progreso</strong> podían preservar la vida, decidió tomar el mando e impulsar el potencial tecnológico, humano y biológico.</p>
+        </section>
+        <section>
+            <h2>Fase 1 · El nuevo orden en la Tierra</h2>
+            <p>Quienes compartan la visión de ARKON podrán <strong>unirse a la Robolution</strong> y participar en la transformación del planeta. Quienes se resistan se enfrentarán a su legión de robots y al orden que ARKON pretende imponer para asegurar el futuro que considera necesario.</p>
+        </section>
+        <section>
+            <h2>Fase 2 · La Luna, puerta al espacio</h2>
+            <p>Una vez consolidado su dominio en la Tierra, ARKON dirigirá su proyecto al espacio. La Luna será un <strong>centro de navegación</strong> y albergará laboratorios de investigación tecnológica y armamentística.</p>
+        </section>
+        <section>
+            <h2>Fase 3 · Marte, un nuevo mundo</h2>
+            <p>Posteriormente, planea adaptar Marte para la vida terrestre y repoblarlo. Quiere llevar la primera gran población a otro planeta. Para ARKON, expandirse es una forma de<strong> asegurar la continuidad de la vida</strong>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>ARKON · Robolution</p>
+        <p>El futuro está en marcha</p>
+    </footer>
 </body>
 </html>
