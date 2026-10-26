@@ -510,6 +510,12 @@ footer {
     display: none;
 }
 
+.arkon.activado .ojo,
+.arkon.activado .reactor {
+    background-color: #A31D2A;
+    box-shadow: 0 0 12px #A31D2A;
+}
+
 /* ===== VERSIÓN MÓVIL ===== */
 
 @media (max-width: 768px) {
